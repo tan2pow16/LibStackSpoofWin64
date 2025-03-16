@@ -5,7 +5,7 @@ This is a just-4-fun C library that makes stack spoofing a bit easier on x64 Win
 ## Backstory
 A little while ago, I got [this sample](https://www.virustotal.com/gui/file/9cc0de5de977708445e5ce017d6d5d97e00c7749e3a93e8308d493687163af21) from one of my private threat hunting sources. The sample stood out from the rest, as it utilized stack spoofing to mess with anti-malware solutions. I made [a simple analysis](https://github.com/tan2pow16/Malware-Analysis-Write-ups/tree/main/25-02-28-StackSpoof), and later found that the assembly was pulled from an open-source project named [LoudSunRun](https://github.com/susMdT/LoudSunRun).  
 
-I also produced a small C header file to toy with the code. Well, why not turn it into an east-to-use C library? So here it is.  
+I also produced a small C header file to toy with the code. Well, why not turn it into an easy-to-use C library? So here it is.  
 
 ## Building
 I used mingw-w64 to build the project. Put your mingw-w64 environment in `compile.bat`, and it should be able to produce a static object file in the `build/` folder.  
