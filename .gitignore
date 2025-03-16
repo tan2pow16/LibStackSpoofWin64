@@ -1,0 +1,8 @@
+build/*
+cache/*
+demo/build/*
+demo/cache/*
+demo/test
+!*/.gitignore
+!demo/*/.gitignore
+

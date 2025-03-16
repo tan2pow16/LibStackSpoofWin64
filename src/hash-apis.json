@@ -1,0 +1,15 @@
+{
+  "kernel32.dll": [
+    "LoadLibraryA",
+    "RtlLookupFunctionEntry",
+    "BaseThreadInitThunk",
+    "WaitForSingleObject"
+  ],
+  "ntdll.dll": [
+    "RtlUserThreadStart",
+    "RtlCreateUserThread",
+    "NtAllocateVirtualMemory",
+    "NtProtectVirtualMemory",
+    "NtFreeVirtualMemory"
+  ]
+}
